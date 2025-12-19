@@ -1,103 +1,192 @@
-# WorkflowLM (Agentic Workflow Architect)
+<h1 align="center">WorkflowLM</h1>
+<h3 align="center">Enterprise AI Architect for Multi-Agent Systems</h3>
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![React](https://img.shields.io/badge/React-19-blue) ![Gemini API](https://img.shields.io/badge/Google-Gemini%203%20Pro-8E44AD)
+<p align="center">
+  <em>Design and prototype AI agent workflows in seconds with natural language</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Gemini_API_Competition-2025-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini Competition 2025" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
+  <img src="https://img.shields.io/badge/Gemini_3_Pro-8E44AD?style=flat-square&logo=google&logoColor=white" alt="Gemini 3 Pro" />
+  <img src="https://img.shields.io/badge/Imagen_3-FF6F00?style=flat-square&logo=google&logoColor=white" alt="Imagen 3" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License" />
+</p>
+
+<p align="center">
+  :gb: <a href="#english">English</a> | :it: <a href="#italiano">Italiano</a>
+</p>
+
+---
+
+<a name="english"></a>
+## :gb: English
+
+### Overview
 
 **WorkflowLM** is an enterprise-grade AI Architect designed to conceptualize, design, and prototype multi-agent AI systems in seconds. By leveraging Google's most powerful Gemini 3 models, it transforms high-level user scenarios into detailed architectural blueprints, complete with specialized agent personas, system prompts, visual flowcharts, and professional executive reports.
 
-## ✨ Key Features
+### Key Features
 
-### 🤖 Intelligent Architecture Engine
-- **Automated Agent Design**: Instantly generates a team of specialized AI agents based on a natural language scenario.
-- **Dynamic Configuration**: Adjust team size (1-10 agents) to fit the complexity of your task.
-- **Orchestrator Logic**: Generates a master execution prompt to coordinate the multi-agent system.
+#### Intelligent Architecture Engine
+- **Automated Agent Design** - Instantly generates a team of specialized AI agents based on a natural language scenario
+- **Dynamic Configuration** - Adjust team size (1-10 agents) to fit the complexity of your task
+- **Orchestrator Logic** - Generates a master execution prompt to coordinate the multi-agent system
 
-### 📂 Massive Template Library (100+)
+#### Massive Template Library (100+)
 Access a curated library of over 100 real-world scenarios across 12+ professional categories:
-- **Tech**: SaaS MVP, DevOps Pipelines, Cybersecurity, Web3 Smart Contracts, Legacy Migration.
-- **Data & ML**: RAG Pipelines, Fraud Detection, Sports Analytics, Predictive Maintenance.
-- **Science**: Drug Discovery, Climate Modeling, Quantum Simulation, Genomics.
-- **Marketing**: Product Launches, Viral Social Media Teams, SEO Factories, Crisis PR.
-- **Business**: M&A Due Diligence, Startup Pitch Decks, Supply Chain Optimization.
-- **Ops**: HR Recruitment, Event Planning, Disaster Recovery, Fleet Management.
-- **Legal**: IP Protection, GDPR Compliance, Litigation Prep, Contract Negotiation.
-- **Healthcare**: Clinical Trials, Patient Triage, Mental Health Bots, Telehealth.
-- **Lifestyle**: Personal Fitness, Travel Concierge, Wedding Planning, Financial Wellness.
-- **Creative**: YouTube Channel Management, Screenwriting, Comic Book Creation, Music Production.
-- **Game Dev**: Indie Game Studio, Level Design, QA Swarms, E-sports Management.
 
-### 📄 Premium Executive Reports
-- Generates a **downloadable PDF report** in a sleek dark-mode design.
-- Includes:
-  - **Executive Summary** & Business Impact.
-  - **3D Isometric Infographic** of the system architecture.
-  - **Agent Roster** with role definitions.
-  - **Implementation Roadmap** (Prototype -> Scale).
-  - **Risk Management** strategies.
+| Category | Examples |
+|----------|----------|
+| **Tech** | SaaS MVP, DevOps Pipelines, Cybersecurity, Web3 Smart Contracts |
+| **Data & ML** | RAG Pipelines, Fraud Detection, Sports Analytics, Predictive Maintenance |
+| **Science** | Drug Discovery, Climate Modeling, Quantum Simulation, Genomics |
+| **Marketing** | Product Launches, Viral Social Media, SEO Factories, Crisis PR |
+| **Business** | M&A Due Diligence, Startup Pitch Decks, Supply Chain Optimization |
+| **Healthcare** | Clinical Trials, Patient Triage, Mental Health Bots, Telehealth |
+| **Legal** | IP Protection, GDPR Compliance, Litigation Prep, Contract Negotiation |
+| **Creative** | YouTube Channel, Screenwriting, Comic Book Creation, Music Production |
 
-### 📊 Advanced Visualization
-- **Mermaid.js Flowcharts**: Dynamic, editable diagrams showing logic flow.
-- **AI Concept Art**: Uses *Imagen 3* / *Gemini Flash Image* to generate stunning 3D isometric representations of your specific workflow.
-- **Agent Avatars**: Automatically generates unique, minimalist vector icons for each agent using AI.
+#### Premium Executive Reports
+- Generates a **downloadable PDF report** in a sleek dark-mode design
+- Includes: Executive Summary, 3D Isometric Infographic, Agent Roster, Implementation Roadmap, Risk Management
 
-### 🎭 Interactive Simulation
-- **Dialogue Engine**: Simulates a realistic conversation between your generated agents to validate their roles and interactions.
-- **Voice Mode**: A real-time, hands-free voice assistant powered by **Gemini Live API** to brainstorm and refine your scenario verbally.
+#### Advanced Visualization
+- **Mermaid.js Flowcharts** - Dynamic, editable diagrams showing logic flow
+- **AI Concept Art** - Uses Imagen 3 to generate stunning 3D isometric representations
+- **Agent Avatars** - Automatically generates unique vector icons for each agent
 
-## 🛠️ Tech Stack
+#### Interactive Simulation
+- **Dialogue Engine** - Simulates realistic conversations between generated agents
+- **Voice Mode** - Real-time voice assistant powered by Gemini Live API
 
-- **Frontend**: React 19, TypeScript, Vite
-- **Styling**: Tailwind CSS
-- **PDF Engine**: jsPDF
-- **AI Models**: 
-  - `gemini-3-pro-preview` (Logic & Reasoning)
-  - `gemini-2.5-flash-image` (Avatars & Visuals)
-  - `imagen-3.0-generate-001` (High-Fidelity Concept Art)
-  - `gemini-2.5-flash-native-audio-preview` (Live Voice Interaction)
-- **Visualization**: Mermaid.js
+### Tech Stack
 
-## 🚀 Getting Started
+| Category | Technologies |
+|----------|-------------|
+| Frontend | React 19, TypeScript, Vite, Tailwind CSS |
+| PDF Engine | jsPDF |
+| Visualization | Mermaid.js |
+| AI Models | Gemini 3 Pro, Gemini 2.5 Flash, Imagen 3, Gemini Live API |
 
-### Prerequisites
-- A valid [Google Gemini API Key](https://aistudio.google.com/).
-- Node.js and npm/yarn installed.
+### Quick Start
 
-### Installation
+```bash
+# Clone
+git clone https://github.com/fracabu/workflow-lm.git
+cd workflow-lm
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/agentic-workflow-architect.git
-    cd agentic-workflow-architect
-    ```
+# Install
+npm install
 
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+# Configure (create .env file)
+echo "API_KEY=your_gemini_api_key" > .env
 
-3.  **Configure Environment:**
-    Create a `.env` file in the root directory:
-    ```env
-    API_KEY=your_google_gemini_api_key_here
-    ```
+# Run
+npm start
+```
 
-4.  **Add Assets:**
-    Ensure `hero-infographic.png` is placed in the project root directory.
+### Usage
 
-5.  **Run the application:**
-    ```bash
-    npm start
-    ```
+1. **Select a Template** - Browse 100+ templates or describe your own scenario
+2. **Generate** - Watch as agents are designed with prompts and workflows
+3. **Visualize** - Generate 3D infographics and flowcharts
+4. **Simulate** - Watch agents interact in real-time
+5. **Export** - Download JSON config or PDF executive report
 
-## 📖 Usage Guide
+---
 
-1.  **Select a Template**: Browse the "Explore More Templates" grid to find a starting point (e.g., "SaaS Product Team").
-2.  **Or Describe Your Own**: Type a custom goal or use the microphone button to talk to the AI architect.
-3.  **Generate**: Watch as the system designs your agents, writes their prompts, and maps their workflow.
-4.  **Visualize & Simulate**: 
-    - Click "Generate 3D Infographic" to see the system concept.
-    - Click "Simulate Workflow" to watch the agents talk.
-5.  **Export**: Download the JSON configuration or the professional PDF report for stakeholders.
+<a name="italiano"></a>
+## :it: Italiano
 
-## 📄 License
+### Panoramica
 
-This project is licensed under the MIT License.
+**WorkflowLM** e un AI Architect enterprise-grade progettato per concettualizzare, progettare e prototipare sistemi AI multi-agent in pochi secondi. Sfruttando i modelli Gemini 3 di Google, trasforma scenari in linguaggio naturale in blueprint architetturali dettagliati, completi di agent personas, system prompts, flowchart e report executive professionali.
+
+### Funzionalita Principali
+
+#### Motore di Architettura Intelligente
+- **Design Agent Automatico** - Genera istantaneamente un team di agent AI specializzati
+- **Configurazione Dinamica** - Regola la dimensione del team (1-10 agent)
+- **Logica Orchestratore** - Genera un master prompt per coordinare il sistema multi-agent
+
+#### Libreria Template (100+)
+Accesso a oltre 100 scenari reali in 12+ categorie professionali:
+
+| Categoria | Esempi |
+|-----------|--------|
+| **Tech** | SaaS MVP, Pipeline DevOps, Cybersecurity, Smart Contract Web3 |
+| **Data & ML** | Pipeline RAG, Fraud Detection, Analytics Sportivi, Manutenzione Predittiva |
+| **Scienza** | Drug Discovery, Modelli Climatici, Simulazione Quantistica, Genomica |
+| **Marketing** | Lanci Prodotto, Social Media Virali, SEO Factory, Crisis PR |
+| **Business** | Due Diligence M&A, Pitch Deck Startup, Ottimizzazione Supply Chain |
+| **Healthcare** | Trial Clinici, Triage Pazienti, Bot Salute Mentale, Telemedicina |
+| **Legale** | Protezione IP, Compliance GDPR, Preparazione Litigation, Negoziazione Contratti |
+| **Creativo** | Gestione Canale YouTube, Sceneggiatura, Creazione Fumetti, Produzione Musicale |
+
+#### Report Executive Premium
+- Genera **report PDF scaricabili** in design dark-mode
+- Include: Executive Summary, Infografica 3D Isometrica, Roster Agent, Roadmap Implementazione, Risk Management
+
+#### Visualizzazione Avanzata
+- **Flowchart Mermaid.js** - Diagrammi dinamici ed editabili
+- **Concept Art AI** - Imagen 3 genera rappresentazioni 3D isometriche
+- **Avatar Agent** - Icone vettoriali uniche generate automaticamente
+
+#### Simulazione Interattiva
+- **Dialogue Engine** - Simula conversazioni realistiche tra agent
+- **Modalita Voce** - Assistente vocale real-time via Gemini Live API
+
+### Avvio Rapido
+
+```bash
+# Clona
+git clone https://github.com/fracabu/workflow-lm.git
+cd workflow-lm
+
+# Installa
+npm install
+
+# Configura (crea file .env)
+echo "API_KEY=tua_chiave_gemini" > .env
+
+# Avvia
+npm start
+```
+
+### Come Usare
+
+1. **Seleziona un Template** - Sfoglia 100+ template o descrivi il tuo scenario
+2. **Genera** - Guarda gli agent prendere forma con prompt e workflow
+3. **Visualizza** - Genera infografiche 3D e flowchart
+4. **Simula** - Osserva gli agent interagire in tempo reale
+5. **Esporta** - Scarica config JSON o report PDF executive
+
+---
+
+## Author
+
+**Francesco Capurso** ([@fracabu](https://github.com/fracabu))
+
+- NPM: [npmjs.com/~fracabu](https://www.npmjs.com/~fracabu)
+- LinkedIn: [linkedin.com/in/francesco-capurso-5801031a0](https://linkedin.com/in/francesco-capurso-5801031a0)
+
+## License
+
+MIT License - See [LICENSE](LICENSE) for details.
+
+---
+
+<p align="center">
+  <strong>Built for Google Gemini API Developer Competition 2025</strong>
+</p>
+
+<p align="center">
+  <a href="https://workflowlm.vercel.app">
+    <img src="https://img.shields.io/badge/Live_Demo-workflowlm.vercel.app-4285F4?style=for-the-badge" alt="Live Demo" />
+  </a>
+</p>
