@@ -1,0 +1,7 @@
+{
+  "name": "Agentic Workflow Architect",
+  "description": "An application that analyzes a user's scenario, designs a multi-agent AI system to accomplish it, and generates the necessary prompts to execute the workflow.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
